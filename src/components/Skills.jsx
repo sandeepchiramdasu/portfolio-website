@@ -2,7 +2,7 @@ import React from "react";
 import express from "../assets/express.webp";
 import css from "../assets/css3.svg";
 import html from "../assets/html.svg";
-import Mongo from "../assets/mongo.svg";
+import Mongo from "../assets/Mongo.svg";
 import Javascript from '../assets/javaScript.svg'
 import reactjs from "../assets/reactjs.svg"
 import python from "../assets/python.svg"
