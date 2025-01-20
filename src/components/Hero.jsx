@@ -18,7 +18,7 @@ const Hero = () => {
       <span className="text-2xl font-semibold text-white">Full Stack Developer.</span> Let's explore my journey and projects!
     </p>
     <p className="text-base sm:text-lg md:text-xl mb-6">
-      🚀 Currently Specializing in <span className="text-cyan-300">React, Springboot.</span>
+      🚀 Currently Specializing in <span className="text-cyan-300">React, Springboot</span>
     </p>
     <p className="text-base sm:text-lg md:text-xl mb-6">
     📍 Software Engineer at <span className="text-cyan-300">Movate</span>
