@@ -21,7 +21,7 @@ const Hero = () => {
       🚀 Currently Specializing in <span className="text-cyan-300">React, Springboot</span>
     </p>
     <p className="text-base sm:text-lg md:text-xl mb-6">
-    📍 Software Engineer at <span className="text-cyan-300">Movate</span>
+    📍 Associate Software Engineer at <span className="text-cyan-300">Movate</span>
     </p>
     <div className="flex gap-6 mb-6">
       <a
