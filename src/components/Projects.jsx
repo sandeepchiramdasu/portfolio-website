@@ -3,6 +3,7 @@ import weather from "../assets/weather.png";
 import quiz from "../assets/quiz.png";
 import signup from "../assets/signup.png";
 import mart from "../assets/mart.png"
+import mart from "../assets/todo.png"
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -36,7 +37,7 @@ const Projects = () => {
       ,
     { title: "To-Do App",
      description: "A simple React-based To-Do List app that allows users to add, toggle, and remove tasks.The app offers an easy-to-use interface for managing tasks with a focus on simplicity and functionality.",
-     imgSrc: "todo.jpg",
+     imgSrc: todo,
      link:"https://santodoapp.netlify.app/"
     },
     // { title: "Project 5", description: "Short description", imgSrc: "project5.jpg" },
