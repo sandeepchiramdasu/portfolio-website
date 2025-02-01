@@ -3,7 +3,7 @@ import weather from "../assets/weather.png";
 import quiz from "../assets/quiz.png";
 import signup from "../assets/signup.png";
 import mart from "../assets/mart.png"
-import mart from "../assets/todo.png"
+import todo from "../assets/todo.png"
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -30,7 +30,7 @@ const Projects = () => {
       link: "https://quizapz.netlify.app/",
     },
     { title: "SignUp-Login",
-      description: "",
+      description: "A signup/login page built with React.js includes forms for user registration and login, with fields for email/username and password. It handles form validation, state management, and displays error/success messages based on user input",
       imgSrc: signup,
       link: "https://signuploginapz.netlify.app/"
     }
