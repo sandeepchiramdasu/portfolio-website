@@ -31,9 +31,14 @@ const Projects = () => {
     { title: "SignUp-Login",
       description: "",
       imgSrc: signup,
-      link: "https://signuploginapz.netlify.app/" }
-    //   ,
-    // { title: "Project 4", description: "Short description", imgSrc: "project4.jpg" },
+      link: "https://signuploginapz.netlify.app/"
+    }
+      ,
+    { title: "To-Do App",
+     description: "A simple React-based To-Do List app that allows users to add, toggle, and remove tasks.The app offers an easy-to-use interface for managing tasks with a focus on simplicity and functionality.",
+     imgSrc: "todo.jpg",
+     link:"https://santodoapp.netlify.app/"
+    },
     // { title: "Project 5", description: "Short description", imgSrc: "project5.jpg" },
   ];
 
