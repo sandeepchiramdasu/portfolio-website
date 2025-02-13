@@ -17,9 +17,7 @@ const About = () => {
               With expertise in frontend and backend technologies, I deliver seamless digital 
               experiences tailored to client goals and focused on quality and impact.
             </p>
-          </div>
-
-          {/*Resume section */}
+            {/*Resume section */}
           <div className="flex gap-6 mb-6">
             <a
                 href={resumeurl}
@@ -29,6 +27,7 @@ const About = () => {
                 <HiDocumentDownload size={20} className="text-cyan-500"/>Resume
             </a>
             </div>
+          </div>
 
           {/* Image Section */}
           <div className="mt-6 lg:mt-0 lg:w-1/3 flex justify-center">
