@@ -13,24 +13,26 @@ const Contact = () => {
     e.preventDefault();
 
     // EmailJS configuration
-    const serviceID = "service_puan58c"; // Replace with your EmailJS service ID
-    const templateID = "template_q757rha"; // Replace with your EmailJS template ID
-    const userID = "5sNlOUr_VSce1ICnf"; // Replace with your EmailJS user ID
+    const serviceID = "service_puan58c"; 
+    const templateID = "template_q757rha"; 
+    const userID = "5sNlOUr_VSce1ICnf"; 
 
-    emailjs
-      .send(serviceID, templateID, formData, userID)
-      .then(
-        (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-          setStatus({ message: "Email sent successfully!", isError: false });
-          setFormData({ name: "", email: "", message: "" }); // Clear the form
-        },
-        (error) => {
-          console.error("FAILED...", error);
-          setStatus({ message: "Failed to send email. Please try again later.", isError: true });
-        }
-      );
+    const templateParams = {
+    from_name: formData.name,
+    email: formData.email,
+    message: formData.message,
   };
+
+    emailjs.send(serviceID, templateID, templateParams, userID)
+    .then((response) => {
+      console.log("SUCCESS!", response.status, response.text);
+      setStatus({ message: "Email sent successfully!", isError: false });
+      setFormData({ name: "", email: "", message: "" });
+    }, (error) => {
+      console.error("FAILED...", error);
+      setStatus({ message: "Failed to send email. Please try again later.", isError: true });
+    });
+};
 
   return (
     <section id="contact" className="p-6 sm:p-10">
