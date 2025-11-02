@@ -5,6 +5,7 @@ import signup from "../assets/signup.png";
 import mart from "../assets/mart.png"
 import todo from "../assets/todo.png"
 import calcy from "../assets/calcy.png";
+import qr from "../assets/qr.png";
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -45,6 +46,12 @@ const Projects = () => {
      description: "A simple calculator app built with React.js. It supports basic arithmetic operations such as addition, subtraction, multiplication, and division. The UI adapts for both desktop and mobile", 
      imgSrc: calcy,
      link:"https://sandycalcy.netlify.app/"
+    },
+    {
+      title:"QR Generator",
+      description: "A QR Generator built with React.js that allows users to input text and instantly generate a QR code.Users can preview the generated QR code in real-time. Provides an option to download the QR code as an image for easy sharing or use.", 
+      imgSrc: qr,
+      link:"https://responsiveqrgenerator.netlify.app/"
     }
   ];
 
