@@ -4,6 +4,7 @@ import quiz from "../assets/quiz.png";
 import signup from "../assets/signup.png";
 import mart from "../assets/mart.png"
 import todo from "../assets/todo.png"
+import calcy from "../assets/calcy.png";
 
 const Projects = () => {
   const [showAll, setShowAll] = useState(false);
@@ -40,7 +41,11 @@ const Projects = () => {
      imgSrc: todo,
      link:"https://santodoapp.netlify.app/"
     },
-    // { title: "Project 5", description: "Short description", imgSrc: "project5.jpg" },
+    { title: "Calculator",
+     description: "A simple calculator app built with React.js. It supports basic arithmetic operations such as addition, subtraction, multiplication, and division. The UI adapts for both desktop and mobile", 
+     imgSrc: calcy,
+     link:"https://sandycalcy.netlify.app/"
+    }
   ];
 
   return (
